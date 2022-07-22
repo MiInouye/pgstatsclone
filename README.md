@@ -1,0 +1,1 @@
+Tring to create a website like pg stats but more for individual use rather than kepping track of global things.
