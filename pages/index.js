@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import React,{ useState } from 'react';
+import Navbar from '../components/navbar.js';
+
 // index.html
 // https://nextjs.org/learn/foundations/from-javascript-to-react/updating-ui-with-javascript  tutorial
 
@@ -17,6 +19,7 @@ export default function HomePage() {
     return (
         <div>
         <Header title="Develop. Preview. Ship. 🚀" />
+        
         <ul>
             {names.map((name) => (
                 <li key={name}>{name}</li>
